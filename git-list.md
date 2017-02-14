@@ -2,6 +2,9 @@
     git checkout master
     git branch –-merged master | grep -v ‘master$’ | xargs git branch -d
 
+# Удалить все локальные ветки, кроме мастера
+    git branch | grep -v ‘master$’ | xargs git branch -D
+
 # Проверить сколько места занимает и удалить лишнее
     git count-objects -v
     git gc
@@ -23,3 +26,6 @@
 
 # Добавить цвет
     git config --global color.ui auto
+
+# Игнорировать изменения мода файла
+    git config --global core.fileMode false

@@ -15,3 +15,4 @@ git config --global alias.plog "log --pretty=format:'%Cred%h%Creset -%C(yellow)%
 git config --global color.ui auto
 git config --global user.name "k.nazarov"
 git config --global user.email "4everbut4er@gmail.com"
+git config --global core.fileMode false
