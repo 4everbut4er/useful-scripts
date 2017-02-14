@@ -13,3 +13,5 @@ git config --global alias.who "shortlog -s --"
 git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 git config --global alias.plog "log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 git config --global color.ui auto
+git config --global user.name "k.nazarov"
+git config --global user.email "4everbut4er@gmail.com"
